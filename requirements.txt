@@ -1,0 +1,10 @@
+# Dependencias de la app Whisper (Asistente + Explorador Encoder/Decoder)
+# Instalar con:  python -m pip install -r requirements.txt
+
+streamlit>=1.43        # 1.43+ necesario para adjuntar audios en el chat
+openai-whisper         # modelo Whisper (instala también torch, numba y tiktoken)
+torch                  # PyTorch (versión CPU por defecto)
+numpy
+pandas
+matplotlib
+imageio-ffmpeg         # ffmpeg empaquetado: evita instalar ffmpeg en el sistema
